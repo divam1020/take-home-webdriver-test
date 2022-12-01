@@ -1,0 +1,194 @@
+<html>
+<head>
+<title>TestNG:  TestAutomation</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>TestAutomation</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>23/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Nov 16 07:20:19 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>164 seconds (164002 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.automation.tests.Test01_LoginSuccess.loginTest()'><b>loginTest</b><br>Test class: com.automation.tests.Test01_LoginSuccess</td>
+<td></td>
+<td>6</td>
+<td>com.automation.tests.Test01_LoginSuccess@262b2c86</td></tr>
+<tr>
+<td title='com.automation.tests.Test05_DragAndDrop.dragAndDropTest()'><b>dragAndDropTest</b><br>Test class: com.automation.tests.Test05_DragAndDrop</td>
+<td></td>
+<td>13</td>
+<td>com.automation.tests.Test05_DragAndDrop@4eb7f003</td></tr>
+<tr>
+<td title='com.automation.tests.Test04_ContextMenu.contextMenuTest()'><b>contextMenuTest</b><br>Test class: com.automation.tests.Test04_ContextMenu</td>
+<td></td>
+<td>3</td>
+<td>com.automation.tests.Test04_ContextMenu@6121c9d6</td></tr>
+<tr>
+<td title='com.automation.tests.Test02_LoginFailure.loginWithWrongPasswordTest()'><b>loginWithWrongPasswordTest</b><br>Test class: com.automation.tests.Test02_LoginFailure</td>
+<td></td>
+<td>3</td>
+<td>com.automation.tests.Test02_LoginFailure@4d3167f4</td></tr>
+<tr>
+<td title='com.automation.tests.Test07_DynamicContent.dynamicContentTest()'><b>dynamicContentTest</b><br>Test class: com.automation.tests.Test07_DynamicContent</td>
+<td></td>
+<td>3</td>
+<td>com.automation.tests.Test07_DynamicContent@612fc6eb</td></tr>
+<tr>
+<td title='com.automation.tests.Test08_DynamicControls.dynamicControlsCheckboxTest()'><b>dynamicControlsCheckboxTest</b><br>Test class: com.automation.tests.Test08_DynamicControls</td>
+<td></td>
+<td>20</td>
+<td>com.automation.tests.Test08_DynamicControls@1060b431</td></tr>
+<tr>
+<td title='com.automation.tests.Test13_Iframe.iframeTest()'><b>iframeTest</b><br>Test class: com.automation.tests.Test13_Iframe</td>
+<td></td>
+<td>4</td>
+<td>com.automation.tests.Test13_Iframe@491cc5c9</td></tr>
+<tr>
+<td title='com.automation.tests.Test18_NotificationMessage.notificationMessageTest()'><b>notificationMessageTest</b><br>Test class: com.automation.tests.Test18_NotificationMessage</td>
+<td></td>
+<td>4</td>
+<td>com.automation.tests.Test18_NotificationMessage@757942a1</td></tr>
+<tr>
+<td title='com.automation.tests.Test10_FileDownload.fileDownloadTest()'><b>fileDownloadTest</b><br>Test class: com.automation.tests.Test10_FileDownload</td>
+<td></td>
+<td>9</td>
+<td>com.automation.tests.Test10_FileDownload@11758f2a</td></tr>
+<tr>
+<td title='com.automation.tests.Test03_Checkboxes.checkbox2CheckedTest()'><b>checkbox2CheckedTest</b><br>Test class: com.automation.tests.Test03_Checkboxes</td>
+<td></td>
+<td>3</td>
+<td>com.automation.tests.Test03_Checkboxes@ed9d034</td></tr>
+<tr>
+<td title='com.automation.tests.Test08_DynamicControls.dynamicControlsTextboxTest()'><b>dynamicControlsTextboxTest</b><br>Test class: com.automation.tests.Test08_DynamicControls</td>
+<td></td>
+<td>10</td>
+<td>com.automation.tests.Test08_DynamicControls@1060b431</td></tr>
+<tr>
+<td title='com.automation.tests.Test15_JavaScriptAlerts.javaScriptAlertsTest()'><b>javaScriptAlertsTest</b><br>Test class: com.automation.tests.Test15_JavaScriptAlerts</td>
+<td></td>
+<td>3</td>
+<td>com.automation.tests.Test15_JavaScriptAlerts@6a1aab78</td></tr>
+<tr>
+<td title='com.automation.tests.Test14_MouseHover.mouseHoverTest()'><b>mouseHoverTest</b><br>Test class: com.automation.tests.Test14_MouseHover</td>
+<td></td>
+<td>3</td>
+<td>com.automation.tests.Test14_MouseHover@74ad1f1f</td></tr>
+<tr>
+<td title='com.automation.tests.Test03_Checkboxes.checkbox1And2UncheckedTest()'><b>checkbox1And2UncheckedTest</b><br>Test class: com.automation.tests.Test03_Checkboxes</td>
+<td></td>
+<td>3</td>
+<td>com.automation.tests.Test03_Checkboxes@ed9d034</td></tr>
+<tr>
+<td title='com.automation.tests.Test09_DynamicLoading.dynamicLoadingTest()'><b>dynamicLoadingTest</b><br>Test class: com.automation.tests.Test09_DynamicLoading</td>
+<td></td>
+<td>19</td>
+<td>com.automation.tests.Test09_DynamicLoading@612679d6</td></tr>
+<tr>
+<td title='com.automation.tests.Test06_Dropdown.dropdown2Test()'><b>dropdown2Test</b><br>Test class: com.automation.tests.Test06_Dropdown</td>
+<td></td>
+<td>3</td>
+<td>com.automation.tests.Test06_Dropdown@eafc191</td></tr>
+<tr>
+<td title='com.automation.tests.Test16_JavaScriptError.javaScriptErrorTest()'><b>javaScriptErrorTest</b><br>Test class: com.automation.tests.Test16_JavaScriptError</td>
+<td></td>
+<td>2</td>
+<td>com.automation.tests.Test16_JavaScriptError@462d5aee</td></tr>
+<tr>
+<td title='com.automation.tests.Test11_FileUpload.fileUploadButtonTest()'><b>fileUploadButtonTest</b><br>Test class: com.automation.tests.Test11_FileUpload</td>
+<td></td>
+<td>14</td>
+<td>com.automation.tests.Test11_FileUpload@e720b71</td></tr>
+<tr>
+<td title='com.automation.tests.Test03_Checkboxes.checkbox1And2CheckedTest()'><b>checkbox1And2CheckedTest</b><br>Test class: com.automation.tests.Test03_Checkboxes</td>
+<td></td>
+<td>3</td>
+<td>com.automation.tests.Test03_Checkboxes@ed9d034</td></tr>
+<tr>
+<td title='com.automation.tests.Test03_Checkboxes.checkbox1CheckedTest()'><b>checkbox1CheckedTest</b><br>Test class: com.automation.tests.Test03_Checkboxes</td>
+<td></td>
+<td>3</td>
+<td>com.automation.tests.Test03_Checkboxes@ed9d034</td></tr>
+<tr>
+<td title='com.automation.tests.Test12_FloatingMenu.floatingMenuTest()'><b>floatingMenuTest</b><br>Test class: com.automation.tests.Test12_FloatingMenu</td>
+<td></td>
+<td>20</td>
+<td>com.automation.tests.Test12_FloatingMenu@1b26f7b2</td></tr>
+<tr>
+<td title='com.automation.tests.Test06_Dropdown.dropdown1Test()'><b>dropdown1Test</b><br>Test class: com.automation.tests.Test06_Dropdown</td>
+<td></td>
+<td>3</td>
+<td>com.automation.tests.Test06_Dropdown@eafc191</td></tr>
+<tr>
+<td title='com.automation.tests.Test17_OpenInNewTab.openInNewTabTest()'><b>openInNewTabTest</b><br>Test class: com.automation.tests.Test17_OpenInNewTab</td>
+<td></td>
+<td>3</td>
+<td>com.automation.tests.Test17_OpenInNewTab@69b0fd6f</td></tr>
+</table><p>
+</body>
+</html>

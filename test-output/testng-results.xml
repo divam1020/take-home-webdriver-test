@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="23" passed="23">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Assessment" duration-ms="164002" started-at="2022-11-16T07:20:19 IST" finished-at="2022-11-16T07:23:03 IST">
+    <groups>
+    </groups>
+    <test name="TestAutomation" duration-ms="164002" started-at="2022-11-16T07:20:19 IST" finished-at="2022-11-16T07:23:03 IST">
+      <class name="com.automation.tests.Test09_DynamicLoading">
+        <test-method status="PASS" signature="dynamicLoadingTest()[pri:0, instance:com.automation.tests.Test09_DynamicLoading@612679d6]" name="dynamicLoadingTest" duration-ms="19403" started-at="2022-11-16T07:21:37 IST" finished-at="2022-11-16T07:21:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dynamicLoadingTest -->
+      </class> <!-- com.automation.tests.Test09_DynamicLoading -->
+      <class name="com.automation.tests.Test14_MouseHover">
+        <test-method status="PASS" signature="mouseHoverTest()[pri:0, instance:com.automation.tests.Test14_MouseHover@74ad1f1f]" name="mouseHoverTest" duration-ms="3710" started-at="2022-11-16T07:22:46 IST" finished-at="2022-11-16T07:22:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mouseHoverTest -->
+      </class> <!-- com.automation.tests.Test14_MouseHover -->
+      <class name="com.automation.tests.Test07_DynamicContent">
+        <test-method status="PASS" signature="dynamicContentTest()[pri:0, instance:com.automation.tests.Test07_DynamicContent@612fc6eb]" name="dynamicContentTest" duration-ms="3310" started-at="2022-11-16T07:21:04 IST" finished-at="2022-11-16T07:21:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dynamicContentTest -->
+      </class> <!-- com.automation.tests.Test07_DynamicContent -->
+      <class name="com.automation.tests.Test10_FileDownload">
+        <test-method status="PASS" signature="fileDownloadTest()[pri:0, instance:com.automation.tests.Test10_FileDownload@11758f2a]" name="fileDownloadTest" duration-ms="9961" started-at="2022-11-16T07:21:57 IST" finished-at="2022-11-16T07:22:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fileDownloadTest -->
+      </class> <!-- com.automation.tests.Test10_FileDownload -->
+      <class name="com.automation.tests.Test16_JavaScriptError">
+        <test-method status="PASS" signature="javaScriptErrorTest()[pri:0, instance:com.automation.tests.Test16_JavaScriptError@462d5aee]" name="javaScriptErrorTest" duration-ms="2723" started-at="2022-11-16T07:22:53 IST" finished-at="2022-11-16T07:22:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- javaScriptErrorTest -->
+      </class> <!-- com.automation.tests.Test16_JavaScriptError -->
+      <class name="com.automation.tests.Test04_ContextMenu">
+        <test-method status="PASS" signature="contextMenuTest()[pri:0, instance:com.automation.tests.Test04_ContextMenu@6121c9d6]" name="contextMenuTest" duration-ms="3132" started-at="2022-11-16T07:20:41 IST" finished-at="2022-11-16T07:20:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contextMenuTest -->
+      </class> <!-- com.automation.tests.Test04_ContextMenu -->
+      <class name="com.automation.tests.Test12_FloatingMenu">
+        <test-method status="PASS" signature="floatingMenuTest()[pri:0, instance:com.automation.tests.Test12_FloatingMenu@1b26f7b2]" name="floatingMenuTest" duration-ms="20103" started-at="2022-11-16T07:22:21 IST" finished-at="2022-11-16T07:22:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- floatingMenuTest -->
+      </class> <!-- com.automation.tests.Test12_FloatingMenu -->
+      <class name="com.automation.tests.Test08_DynamicControls">
+        <test-method status="PASS" signature="dynamicControlsCheckboxTest()[pri:0, instance:com.automation.tests.Test08_DynamicControls@1060b431]" name="dynamicControlsCheckboxTest" duration-ms="20029" started-at="2022-11-16T07:21:07 IST" finished-at="2022-11-16T07:21:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dynamicControlsCheckboxTest -->
+        <test-method status="PASS" signature="dynamicControlsTextboxTest()[pri:0, instance:com.automation.tests.Test08_DynamicControls@1060b431]" name="dynamicControlsTextboxTest" duration-ms="10444" started-at="2022-11-16T07:21:27 IST" finished-at="2022-11-16T07:21:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dynamicControlsTextboxTest -->
+      </class> <!-- com.automation.tests.Test08_DynamicControls -->
+      <class name="com.automation.tests.Test01_LoginSuccess">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.automation.tests.Test01_LoginSuccess@262b2c86]" name="loginTest" duration-ms="6118" started-at="2022-11-16T07:20:19 IST" finished-at="2022-11-16T07:20:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.automation.tests.Test01_LoginSuccess -->
+      <class name="com.automation.tests.Test02_LoginFailure">
+        <test-method status="PASS" signature="loginWithWrongPasswordTest()[pri:0, instance:com.automation.tests.Test02_LoginFailure@4d3167f4]" name="loginWithWrongPasswordTest" duration-ms="3593" started-at="2022-11-16T07:20:25 IST" finished-at="2022-11-16T07:20:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithWrongPasswordTest -->
+      </class> <!-- com.automation.tests.Test02_LoginFailure -->
+      <class name="com.automation.tests.Test11_FileUpload">
+        <test-method status="PASS" signature="fileUploadButtonTest()[pri:0, instance:com.automation.tests.Test11_FileUpload@e720b71]" name="fileUploadButtonTest" duration-ms="14686" started-at="2022-11-16T07:22:07 IST" finished-at="2022-11-16T07:22:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fileUploadButtonTest -->
+      </class> <!-- com.automation.tests.Test11_FileUpload -->
+      <class name="com.automation.tests.Test15_JavaScriptAlerts">
+        <test-method status="PASS" signature="javaScriptAlertsTest()[pri:0, instance:com.automation.tests.Test15_JavaScriptAlerts@6a1aab78]" name="javaScriptAlertsTest" duration-ms="3285" started-at="2022-11-16T07:22:49 IST" finished-at="2022-11-16T07:22:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- javaScriptAlertsTest -->
+      </class> <!-- com.automation.tests.Test15_JavaScriptAlerts -->
+      <class name="com.automation.tests.Test17_OpenInNewTab">
+        <test-method status="PASS" signature="openInNewTabTest()[pri:0, instance:com.automation.tests.Test17_OpenInNewTab@69b0fd6f]" name="openInNewTabTest" duration-ms="3094" started-at="2022-11-16T07:22:55 IST" finished-at="2022-11-16T07:22:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openInNewTabTest -->
+      </class> <!-- com.automation.tests.Test17_OpenInNewTab -->
+      <class name="com.automation.tests.Test06_Dropdown">
+        <test-method status="PASS" signature="dropdown1Test()[pri:0, instance:com.automation.tests.Test06_Dropdown@eafc191]" name="dropdown1Test" duration-ms="3225" started-at="2022-11-16T07:20:57 IST" finished-at="2022-11-16T07:21:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropdown1Test -->
+        <test-method status="PASS" signature="dropdown2Test()[pri:0, instance:com.automation.tests.Test06_Dropdown@eafc191]" name="dropdown2Test" duration-ms="3057" started-at="2022-11-16T07:21:01 IST" finished-at="2022-11-16T07:21:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropdown2Test -->
+      </class> <!-- com.automation.tests.Test06_Dropdown -->
+      <class name="com.automation.tests.Test03_Checkboxes">
+        <test-method status="PASS" signature="checkbox1And2CheckedTest()[pri:0, instance:com.automation.tests.Test03_Checkboxes@ed9d034]" name="checkbox1And2CheckedTest" duration-ms="3066" started-at="2022-11-16T07:20:29 IST" finished-at="2022-11-16T07:20:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkbox1And2CheckedTest -->
+        <test-method status="PASS" signature="checkbox1And2UncheckedTest()[pri:0, instance:com.automation.tests.Test03_Checkboxes@ed9d034]" name="checkbox1And2UncheckedTest" duration-ms="3140" started-at="2022-11-16T07:20:32 IST" finished-at="2022-11-16T07:20:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkbox1And2UncheckedTest -->
+        <test-method status="PASS" signature="checkbox1CheckedTest()[pri:0, instance:com.automation.tests.Test03_Checkboxes@ed9d034]" name="checkbox1CheckedTest" duration-ms="3005" started-at="2022-11-16T07:20:35 IST" finished-at="2022-11-16T07:20:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkbox1CheckedTest -->
+        <test-method status="PASS" signature="checkbox2CheckedTest()[pri:0, instance:com.automation.tests.Test03_Checkboxes@ed9d034]" name="checkbox2CheckedTest" duration-ms="3155" started-at="2022-11-16T07:20:38 IST" finished-at="2022-11-16T07:20:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkbox2CheckedTest -->
+      </class> <!-- com.automation.tests.Test03_Checkboxes -->
+      <class name="com.automation.tests.Test13_Iframe">
+        <test-method status="PASS" signature="iframeTest()[pri:0, instance:com.automation.tests.Test13_Iframe@491cc5c9]" name="iframeTest" duration-ms="4155" started-at="2022-11-16T07:22:42 IST" finished-at="2022-11-16T07:22:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iframeTest -->
+      </class> <!-- com.automation.tests.Test13_Iframe -->
+      <class name="com.automation.tests.Test18_NotificationMessage">
+        <test-method status="PASS" signature="notificationMessageTest()[pri:0, instance:com.automation.tests.Test18_NotificationMessage@757942a1]" name="notificationMessageTest" duration-ms="4249" started-at="2022-11-16T07:22:59 IST" finished-at="2022-11-16T07:23:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- notificationMessageTest -->
+      </class> <!-- com.automation.tests.Test18_NotificationMessage -->
+      <class name="com.automation.tests.Test05_DragAndDrop">
+        <test-method status="PASS" signature="dragAndDropTest()[pri:0, instance:com.automation.tests.Test05_DragAndDrop@4eb7f003]" name="dragAndDropTest" duration-ms="13254" started-at="2022-11-16T07:20:44 IST" finished-at="2022-11-16T07:20:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dragAndDropTest -->
+      </class> <!-- com.automation.tests.Test05_DragAndDrop -->
+    </test> <!-- TestAutomation -->
+  </suite> <!-- Assessment -->
+</testng-results>
